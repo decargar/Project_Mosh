@@ -6,13 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
-
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "config": "^3.3.12",
+    "debug": "^4.3.6",
     "express": "^4.19.2",
+    "helmet": "^7.1.0",
     "joi": "^17.13.3",
-    "nodemon": "^3.1.4"
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.4",
+    "pug": "^3.0.3"
   }
 }
